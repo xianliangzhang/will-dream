@@ -8,6 +8,7 @@
     <modules>
         <module>will-fun</module>
         <module>will-web</module>
+        <module>will-algorithm</module>
     </modules>
     <name>will-dream</name>
 
@@ -35,12 +36,6 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
         </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
-        </dependency>
     </dependencies>
 
     <build>
@@ -56,8 +51,6 @@
                     <target>${project.compiler.target.version}</target>
                 </configuration>
             </plugin>
-
-
         </plugins>
     </build>
 </project>
