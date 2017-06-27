@@ -8,7 +8,6 @@
     <modules>
         <module>will-fun</module>
         <module>will-web</module>
-        <module>will-algorithm</module>
     </modules>
     <name>will-dream</name>
 
