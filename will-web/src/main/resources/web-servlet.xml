@@ -13,6 +13,4 @@
     <context:component-scan base-package="top.kou.dream.web.**.controller">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
-
-    <!--<import resource="lib/will-fun-1.0-SNAPSHOT.jar*/servlet.xml"/>-->
 </beans>
