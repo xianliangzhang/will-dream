@@ -7,6 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>will-fun</module>
+        <module>will-gvm</module>
         <module>will-web</module>
     </modules>
     <name>will-dream</name>
