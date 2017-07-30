@@ -1,10 +1,10 @@
 package top.kou.dream.pattern;
 
-public abstract class AbstractFactory {
+public abstract class AbstractFactoryPattern {
     abstract ScrollBar createScrollBar();
     abstract Window createWindow();
 
-    static class WinAbstractFactory extends AbstractFactory {
+    static class WinAbstractFactory extends AbstractFactoryPattern {
 
         @Override
         ScrollBar createScrollBar() {
@@ -17,7 +17,7 @@ public abstract class AbstractFactory {
         }
     }
 
-    static class MacAbstractFactory extends AbstractFactory {
+    static class MacAbstractFactory extends AbstractFactoryPattern {
 
         @Override
         ScrollBar createScrollBar() {
@@ -54,7 +54,7 @@ public abstract class AbstractFactory {
         Window window;
         ScrollBar scrollBar;
 
-        Client(AbstractFactory factory) {
+        Client(AbstractFactoryPattern factory) {
             this.window = factory.createWindow();
             this.scrollBar = factory.createScrollBar();
         }
@@ -62,7 +62,7 @@ public abstract class AbstractFactory {
 
     public static void main(String[] args) {
         String os = System.getProperty("os.name");
-        AbstractFactory factory = os.toLowerCase().contains("window") ? new WinAbstractFactory() : new MacAbstractFactory();
+        AbstractFactoryPattern factory = os.toLowerCase().contains("window") ? new WinAbstractFactory() : new MacAbstractFactory();
         new Client(factory);
     }
 

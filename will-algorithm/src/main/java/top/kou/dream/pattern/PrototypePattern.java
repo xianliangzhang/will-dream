@@ -6,7 +6,7 @@ import java.rmi.registry.Registry;
 /**
  * 原型模式
  */
-public class Prototype implements Cloneable {
+public class PrototypePattern implements Cloneable {
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();

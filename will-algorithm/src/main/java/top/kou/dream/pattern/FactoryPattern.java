@@ -1,6 +1,6 @@
 package top.kou.dream.pattern;
 
-public class Factory {
+public class FactoryPattern {
 
     static abstract class AbstractFactory {
         abstract Object createInstance();

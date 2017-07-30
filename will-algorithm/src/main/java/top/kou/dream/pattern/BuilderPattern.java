@@ -2,7 +2,7 @@ package top.kou.dream.pattern;
 
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
-public class Builder {
+public class BuilderPattern {
     static class Person {
         String head;
         String body;
