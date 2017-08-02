@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
  * Created by ZXL on 2017/6/27.
  */
 @Controller
-@RequestMapping("/task")
+@RequestMapping("/fun/task")
 public class TaskController {
     private static final Logger RUN_LOG = Logger.getLogger(TaskController.class);
     private static final Integer DEFAULT_THREADS = Runtime.getRuntime().availableProcessors();
