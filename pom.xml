@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>top.kou.dream</groupId>
     <artifactId>will-dream</artifactId>
@@ -12,7 +11,9 @@
         <module>will-web</module>
         <module>will-algorithm</module>
         <module>will-tdd-demo</module>
-    </modules>
+    <module>function-plat</module>
+    <module>function-app-one</module>
+  </modules>
     <name>will-dream</name>
 
     <properties>
